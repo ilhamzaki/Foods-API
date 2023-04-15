@@ -6,14 +6,17 @@ app.use(cors())
 
 require('dotenv').config()
 const port = process.env.PORT || 8000
+const { readdirSync } = require('fs')
 
-const foods = require('./routes/foods.js')
+readdirSync('./routes').map((file) => app.use('/', require('./routes/' + file)))
+
+// const foods = require('./routes/foods.js')
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/foods', foods)
+// app.get('/foods', foods)
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`)
