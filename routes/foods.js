@@ -1159,8 +1159,54 @@ const foodData = [
 //   },
 // ]
 
+const food = [
+  [
+    {
+      makanan_pokok: [
+        {
+          nama: 'Jagung Rebus',
+          berat: 250,
+          kalori: 90.2,
+          unit: 1,
+        },
+      ],
+      buah_buahan: [
+        {
+          nama: 'Apel',
+          berat: 160,
+          kalori: 92,
+          unit: 1,
+        },
+      ],
+      lauk_pauk: [
+        {
+          nama: 'Arsik',
+          berat: 95,
+          kalori: 94.05,
+          unit: 1,
+        },
+      ],
+      sayuran: [
+        {
+          nama: 'Acar Kuning',
+          berat: 75,
+          kalori: 53,
+          unit: 0.5,
+        },
+      ],
+      siap_saji: [
+        {
+          nama: 'Asinan',
+          berat: 250,
+          kalori: 208,
+        },
+      ],
+    },
+  ],
+]
+
 router.get('/foods', (req, res) => {
-  res.send(foodData)
+  res.send(food)
 })
 
 module.exports = router
