@@ -4,54 +4,49 @@ const router = express.Router()
 const lunchData = [
   {
     id: 1,
-    makan_siang: [
+    makan_malam: [
       {
         nama: 'Daging Dada Ayam',
-        kalori: 99,
-        unit: '60 gram',
-      },
-      {
-        nama: 'Ikan Gabus',
-        kalori: 80,
-        unit: '90 gram',
+        kalori: 183,
+        unit: '110 gram',
       },
       {
         nama: 'Nasi Putih',
-        kalori: 57,
-        unit: '45 gram',
+        kalori: 97,
+        unit: '75 gram',
       },
       {
         nama: 'Margarin',
-        kalori: 22,
-        unit: '4 gram',
+        kalori: 42,
+        unit: '8 gram',
       },
       {
-        nama: 'Labu Siam',
-        kalori: 34,
-        unit: '200 gram',
-      },
-      {
-        nama: 'Ikan Teri',
-        kalori: 11,
-        unit: '5 gram',
+        nama: 'Pare',
+        kalori: 38,
+        unit: '130 gram',
       },
       {
         nama: 'Sambal Pete',
-        kalori: 22,
-        unit: '10 gram',
+        kalori: 33,
+        unit: '15 gram',
       },
       {
-        nama: 'Telur',
-        kalori: 65,
-        unit: '1 Butir',
+        nama: 'Selada Daun Hijau',
+        kalori: 15,
+        unit: '100 gram',
       },
       {
         nama: 'Wortel',
-        kalori: 4,
-        unit: '10 gram',
+        kalori: 12,
+        unit: '30 gram',
+      },
+      {
+        nama: 'Cabai Merah',
+        kalori: 16,
+        unit: '5 gram',
       },
     ],
-    foto: 'https://scontent-sin6-1.cdninstagram.com/v/t51.2885-15/267084334_333638431595527_3161918115289184499_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=107&_nc_ohc=QSrw1MaFgTQAX_0tbZl&edm=AJqaXLUBAAAA&ccb=7-5&ig_cache_key=MjcyNjgyMjQ5MzcwMjQ1NzA4Nw%3D%3D.2-ccb7-5&oh=00_AfCoWaQ9Vh0U4t8puydbry7UlZkoq1MQs7vWI8HUbameXQ&oe=643E8631&_nc_sid=22239a',
+    foto: 'https://scontent-sin6-2.cdninstagram.com/v/t51.2885-15/241843508_3117279855172349_5187759341092920411_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=105&_nc_ohc=eU_qEDidFooAX_M2cpK&edm=AJqaXLUBAAAA&ccb=7-5&ig_cache_key=MjcyNTY1MDY1NDU5NjM5MDQ0Nw%3D%3D.2-ccb7-5&oh=00_AfCImapKLPLBScsEjZc4huFLZ_R29P-xhGHd-VXpP2v43w&oe=643EB11C&_nc_sid=22239a',
   },
 ]
 
