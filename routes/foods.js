@@ -994,172 +994,172 @@ const foodData = [
   },
 ]
 
-// const food = [
-//   {
-//     nama: 'Jagung Rebus',
-//     berat: 250,
-//     kalori: 90,
-//     unit: 1,
-//   },
-//   {
-//     nama: 'Kentang Rebus',
-//     berat: 200,
-//     kalori: 166,
-//     unit: 2,
-//   },
-//   {
-//     nama: 'Ketan Putih',
-//     berat: 120,
-//     kalori: 217,
-//     unit: 2.75,
-//   },
-//   {
-//     nama: 'Ketupat',
-//     berat: 160,
-//     kalori: 32,
-//     unit: 0.5,
-//   },
-//   {
-//     nama: 'Lontong',
-//     berat: 200,
-//     kalori: 38,
-//     unit: 0.5,
-//   },
-//   {
-//     nama: 'Nasi Putih',
-//     berat: 100,
-//     kalori: 175,
-//     unit: 2.25,
-//   },
-//   {
-//     nama: 'Nasi Putih Kentucky',
-//     berat: 225,
-//     kalori: 349,
-//     unit: 4.25,
-//   },
-//   {
-//     nama: 'Roti Tawar Serat Tinggi',
-//     berat: 60,
-//     kalori: 149,
-//     unit: 1.75,
-//   },
-//   {
-//     nama: 'Singkong Rebus',
-//     berat: 100,
-//     kalori: 146,
-//     unit: 1.75,
-//   },
-//   {
-//     nama: 'Talas Rebus',
-//     berat: 100,
-//     kalori: 98,
-//     unit: 1.25,
-//   },
-//   {
-//     nama: 'Ubi Rebus',
-//     berat: 100,
-//     kalori: 125,
-//     unit: 1.5,
-//   },
-//   {
-//     nama: 'Bubur',
-//     berat: 200,
-//     kalori: 44,
-//     unit: 0.5,
-//   },
-//   {
-//     nama: 'Crakers',
-//     berat: 50,
-//     kalori: 229,
-//     unit: 2.75,
-//   },
-//   {
-//     nama: 'Makaroni',
-//     berat: 25,
-//     kalori: 91,
-//     unit: 1.25,
-//   },
-//   {
-//     nama: 'Mie Instant',
-//     berat: 50,
-//     kalori: 168,
-//     unit: 2,
-//   },
-//   {
-//     nama: 'Nasi Tim',
-//     berat: 100,
-//     kalori: 88,
-//     unit: 1,
-//   },
-//   {
-//     nama: 'Nasi Uduk',
-//     berat: 200,
-//     kalori: 506,
-//     unit: 6.25,
-//   },
-//   {
-//     nama: 'Roti Tawar',
-//     berat: 50,
-//     kalori: 128,
-//     unit: 1.5,
-//   },
-//   {
-//     nama: 'Bihun Goreng',
-//     berat: 150,
-//     kalori: 296,
-//     unit: 3.75,
-//   },
-//   {
-//     nama: 'Bubur Ayam',
-//     berat: 200,
-//     kalori: 165,
-//     unit: 2,
-//   },
-//   {
-//     nama: 'Bubur Sum-Sum',
-//     berat: 100,
-//     kalori: 178,
-//     unit: 2.25,
-//   },
-//   {
-//     nama: 'Kentang Goreng',
-//     berat: 150,
-//     kalori: 211,
-//     unit: 2.75,
-//   },
-//   {
-//     nama: 'Mie Goreng',
-//     berat: 200,
-//     kalori: 321,
-//     unit: 4,
-//   },
-//   {
-//     nama: 'Nasi Goreng',
-//     berat: 100,
-//     kalori: 267,
-//     unit: 3.25,
-//   },
-//   {
-//     nama: 'Soun Goreng',
-//     berat: 100,
-//     kalori: 263,
-//     unit: 3.25,
-//   },
-//   {
-//     nama: 'Spaghetti',
-//     berat: 300,
-//     kalori: 642,
-//     unit: 8,
-//   },
-//   {
-//     nama: 'Tape Singkong',
-//     berat: 150,
-//     kalori: 260,
-//     unit: 3.25,
-//   },
-// ]
-
 const food = [
+  {
+    nama: 'Jagung Rebus',
+    berat: 250,
+    kalori: 90,
+    unit: 1,
+  },
+  {
+    nama: 'Kentang Rebus',
+    berat: 200,
+    kalori: 166,
+    unit: 2,
+  },
+  {
+    nama: 'Ketan Putih',
+    berat: 120,
+    kalori: 217,
+    unit: 2.75,
+  },
+  {
+    nama: 'Ketupat',
+    berat: 160,
+    kalori: 32,
+    unit: 0.5,
+  },
+  {
+    nama: 'Lontong',
+    berat: 200,
+    kalori: 38,
+    unit: 0.5,
+  },
+  {
+    nama: 'Nasi Putih',
+    berat: 100,
+    kalori: 175,
+    unit: 2.25,
+  },
+  {
+    nama: 'Nasi Putih Kentucky',
+    berat: 225,
+    kalori: 349,
+    unit: 4.25,
+  },
+  {
+    nama: 'Roti Tawar Serat Tinggi',
+    berat: 60,
+    kalori: 149,
+    unit: 1.75,
+  },
+  {
+    nama: 'Singkong Rebus',
+    berat: 100,
+    kalori: 146,
+    unit: 1.75,
+  },
+  {
+    nama: 'Talas Rebus',
+    berat: 100,
+    kalori: 98,
+    unit: 1.25,
+  },
+  {
+    nama: 'Ubi Rebus',
+    berat: 100,
+    kalori: 125,
+    unit: 1.5,
+  },
+  {
+    nama: 'Bubur',
+    berat: 200,
+    kalori: 44,
+    unit: 0.5,
+  },
+  {
+    nama: 'Crakers',
+    berat: 50,
+    kalori: 229,
+    unit: 2.75,
+  },
+  {
+    nama: 'Makaroni',
+    berat: 25,
+    kalori: 91,
+    unit: 1.25,
+  },
+  {
+    nama: 'Mie Instant',
+    berat: 50,
+    kalori: 168,
+    unit: 2,
+  },
+  {
+    nama: 'Nasi Tim',
+    berat: 100,
+    kalori: 88,
+    unit: 1,
+  },
+  {
+    nama: 'Nasi Uduk',
+    berat: 200,
+    kalori: 506,
+    unit: 6.25,
+  },
+  {
+    nama: 'Roti Tawar',
+    berat: 50,
+    kalori: 128,
+    unit: 1.5,
+  },
+  {
+    nama: 'Bihun Goreng',
+    berat: 150,
+    kalori: 296,
+    unit: 3.75,
+  },
+  {
+    nama: 'Bubur Ayam',
+    berat: 200,
+    kalori: 165,
+    unit: 2,
+  },
+  {
+    nama: 'Bubur Sum-Sum',
+    berat: 100,
+    kalori: 178,
+    unit: 2.25,
+  },
+  {
+    nama: 'Kentang Goreng',
+    berat: 150,
+    kalori: 211,
+    unit: 2.75,
+  },
+  {
+    nama: 'Mie Goreng',
+    berat: 200,
+    kalori: 321,
+    unit: 4,
+  },
+  {
+    nama: 'Nasi Goreng',
+    berat: 100,
+    kalori: 267,
+    unit: 3.25,
+  },
+  {
+    nama: 'Soun Goreng',
+    berat: 100,
+    kalori: 263,
+    unit: 3.25,
+  },
+  {
+    nama: 'Spaghetti',
+    berat: 300,
+    kalori: 642,
+    unit: 8,
+  },
+  {
+    nama: 'Tape Singkong',
+    berat: 150,
+    kalori: 260,
+    unit: 3.25,
+  },
+]
+
+const food2 = [
   {
     makanan_pokok: [
       {
@@ -1204,7 +1204,7 @@ const food = [
 ]
 
 router.get('/foods', (req, res) => {
-  res.send(foodData)
+  res.send(food)
 })
 
 module.exports = router
