@@ -4,7 +4,7 @@ const router = express.Router()
 const dinnerData = [
   {
     id: 1,
-    makan_siang: [
+    makan_malam: [
       {
         nama: 'Daging Dada Ayam',
         kalori: 99,
