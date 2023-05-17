@@ -1204,7 +1204,7 @@ const food = [
 ]
 
 router.get('/foods', (req, res) => {
-  res.send(food)
+  res.send(foodData)
 })
 
 module.exports = router
